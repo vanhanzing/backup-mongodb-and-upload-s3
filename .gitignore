@@ -1,4 +1,4 @@
 node_modules
 .env
 # exclude everything
-backDB/*.json
+backUpDB/*.json

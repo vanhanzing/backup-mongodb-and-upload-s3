@@ -48,7 +48,7 @@ const getDocuments = (db, name) => {
 
 const generateDocuments = (fileName, details) => {
   try {
-    fs.writeFileSync(`./backDB/${fileName}.json`, JSON.stringify(details));
+    fs.writeFileSync(`./backUpDB/${fileName}.json`, JSON.stringify(details));
     console.log(`Done writing to file ${fileName}`);
     count++;
   } catch (err) {

@@ -43,7 +43,7 @@ const uploadFile = async (fileContent, file) => {
   }
 };
 exports.getFile = async () => {
-  const directoryPath = path.join(__dirname, './backDB/');
+  const directoryPath = path.join(__dirname, './backUpDB/');
   //passsing directoryPath and callback function
   fs.readdir(directoryPath, function (err, files) {
     //handling error
