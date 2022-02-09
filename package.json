@@ -1,0 +1,17 @@
+{
+  "name": "backup-mongodb-and-upload-s3",
+  "version": "1.0.0",
+  "description": "Auto backup mongodb database and upload generated files to S3",
+  "main": "db.js",
+  "scripts": {
+    "start": "node db.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "prabesh bhattarai",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1071.0",
+    "dotenv": "^16.0.0",
+    "mongoose": "^6.2.1"
+  }
+}
